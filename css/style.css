@@ -84,6 +84,9 @@ header {
 
 .nav-contact li {
   padding-right: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .nav-contact li:last-child {
@@ -103,22 +106,31 @@ header {
   color: var(--accent-color);
 }
 
-/* .nav-col:active {
-  color: red;
-} */
-
 .nav-cont {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
   color: var(--grey-text-color);
+
+  display: flex;
+  align-items: center;
 }
 
 .nav-cont:hover,
 .nav-cont:focus {
   color: var(--accent-color);
 }
+
+/* .nav-cont:hover .nav-icon-tel {
+  fill: var(--accent-color);
+}
+
+.icon-hover:hover .nav-icon-mail {
+  fill: var(--accent-color);
+} */
+
 
 /* geroy */
 
@@ -150,6 +162,7 @@ header {
 .geroy-content {
   padding-top: 200px;
   padding-bottom: 200px;
+  
 }
 
 .geroy-title {
