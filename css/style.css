@@ -394,11 +394,56 @@ header {
   padding-bottom: 94px;
 }
 
+.clients-list {
+  display: flex;
+}
+
+.clients-box {
+
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.clients-box:last-child {
+  margin-right: 0;
+}
+
+.clients-link {
+  fill: var(--grey-text-color);
+
+  width: 170px;
+  height: 90px;
+
+
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-link:hover {
+
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+
+.clients-link:focus {
+  fill: var(--accent-color);
+  /* border: 1px solid var(--accent-color); */
+}
+
 /* footer */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footergeroy-bg-color);
+}
+
+.footer-content {
+  display: flex;
 }
 
 .logo-white {
