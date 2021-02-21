@@ -549,11 +549,14 @@ header {
   margin: 0;
 } */
 
-.filter button:focus,
-.filter button:hover {
+
+
+.button:focus,
+.button:hover {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   border: none;
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -594,18 +597,30 @@ header {
 }
 
 .cards-item {
-  /* outline: 1px solid teal; */
+  /* border: var(--cards-border-portfolio); */
   flex-basis: calc(100% / 3 - var(--cards-gap-porfolio));
   margin-left: var(--cards-gap-porfolio);
   margin-top: var(--cards-gap-porfolio);
   outline: var(--cards-border-portfolio);
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
 
-.cards-item:hover,
-.cards-item:focus {
+
+.cards-item:hover, .cards-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+/* .focus:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+
+/* .cards-item-link:focus,
+.cards-item-link:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .cards-item-content {
   padding: 20px 24px;
